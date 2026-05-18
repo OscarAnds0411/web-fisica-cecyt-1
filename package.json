@@ -1,0 +1,18 @@
+﻿{
+    "version":  "1.0.0",
+    "license":  "MIT",
+    "keywords":  [
+                     "academia",
+                     "fisica",
+                     "cecyt1",
+                     "educacion"
+                 ],
+    "scripts":  {
+                    "dev":  "http-server .",
+                    "build":  "echo \u0027No build needed for static site\u0027"
+                },
+    "name":  "academia-fisica-cecyt1",
+    "description":  "Sitio web Academia de Física CECYT 1",
+    "author":  "Academia de Física",
+    "main":  "index.html"
+}

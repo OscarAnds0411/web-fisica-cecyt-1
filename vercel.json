@@ -1,0 +1,6 @@
+﻿{
+    "env":  {
+
+            },
+    "buildCommand":  "echo \u0027Static site, no build needed\u0027"
+}
