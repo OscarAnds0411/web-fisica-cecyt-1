@@ -20,8 +20,8 @@ academia-fisica/
 1. Abre \data/contenido.json\
 2. Edita el contenido
 3. Guarda
-4. Sube a GitHub (git push)
-5. ¡Vercel se actualiza automáticamente!
+<!-- 4. Sube a GitHub (git push) -->
+<!-- 5. ¡Vercel se actualiza automáticamente! -->
 
 ## Desplegar en Vercel
 

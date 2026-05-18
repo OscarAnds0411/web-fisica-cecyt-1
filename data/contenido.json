@@ -1,0 +1,237 @@
+{
+  "sitio": {
+    "titulo": "Academia de Física",
+    "subtitulo": "CECYT 1 · Turno Matutino",
+    "descripcion": "Espacio de apoyo académico para estudiantes de Física I y Física II"
+  },
+  "menu": [
+    { "id": "inicio",  "label": "🏠 Inicio"     },
+    { "id": "fisica1", "label": "⚡ Física I"   },
+    { "id": "fisica2", "label": "🌊 Física II"  },
+    { "id": "fisica3", "label": "🔭 Física III" },
+    { "id": "fisica4", "label": "⚛️ Física IV"  },
+    { "id": "horarios","label": "⏰ Horarios"   }
+  ],
+  "paginas": {
+    "inicio": {
+      "titulo": "Bienvenida",
+      "aviso": {
+        "titulo": "⚠️ Aviso Importante",
+        "texto": "Las asesorías presenciales se reanudan el 20 de enero. Consulta el horario actualizado en la sección de Horarios."
+      },
+      "bienvenida": "Bienvenido a la Academia de Física del CECYT 1. Este espacio está diseñado para apoyar tu aprendizaje con materiales, guías de estudio y recursos descargables para Física I, II, III y IV. Navega por el menú lateral para acceder a los contenidos de cada unidad.",
+      "accesos_rapidos": [
+        { "label": "⚡ Ir a Física I",      "seccion": "fisica1"  },
+        { "label": "🌊 Ir a Física II",     "seccion": "fisica2"  },
+        { "label": "🔭 Ir a Física III",    "seccion": "fisica3"  },
+        { "label": "⚛️ Ir a Física IV",    "seccion": "fisica4"  },
+        { "label": "⏰ Consultar Horarios", "seccion": "horarios" }
+      ]
+    },
+
+    "fisica1": {
+      "titulo": "Física I",
+      "descripcion": "Contenidos y materiales del curso de Física I",
+      "unidades": [
+        {
+          "nombre": "Unidad 1 — Cinemática",
+          "descripcion": "Movimiento rectilíneo uniforme (MRU), movimiento rectilíneo uniformemente variado (MRUV), caída libre y movimiento en dos dimensiones.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Cinemática",   "tipo": "pdf",   "url": "archivos/f1-u1-guia.pdf"       },
+            { "titulo": "Ejercicios Resueltos",         "tipo": "pdf",   "url": "archivos/f1-u1-ejercicios.pdf" },
+            { "titulo": "Video: MRU y MRUV explicado",  "tipo": "video", "url": "https://www.youtube.com/watch?v=VYgSXBjEA8I" }
+          ]
+        },
+        {
+          "nombre": "Unidad 2 — Dinámica",
+          "descripcion": "Leyes de Newton, fuerza, masa, aceleración, fricción y aplicaciones en sistemas de partículas.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Dinámica",   "tipo": "pdf", "url": "archivos/f1-u2-guia.pdf"      },
+            { "titulo": "Problemas de Práctica",      "tipo": "pdf", "url": "archivos/f1-u2-problemas.pdf" },
+            { "titulo": "Formulario de Dinámica",     "tipo": "pdf", "url": "archivos/f1-u2-formulario.pdf"}
+          ]
+        },
+        {
+          "nombre": "Unidad 3 — Energía y Trabajo",
+          "descripcion": "Trabajo, energía cinética, energía potencial gravitatoria y elástica, conservación de la energía mecánica y potencia.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Energía",  "tipo": "pdf", "url": "archivos/f1-u3-guia.pdf"      },
+            { "titulo": "Formulario de Energía",    "tipo": "pdf", "url": "archivos/f1-u3-formulario.pdf"},
+            { "titulo": "Ejercicios de Repaso",     "tipo": "pdf", "url": "archivos/f1-u3-repaso.pdf"    }
+          ]
+        }
+      ]
+    },
+
+    "fisica2": {
+      "titulo": "Física II",
+      "descripcion": "Contenidos y materiales del curso de Física II",
+      "unidades": [
+        {
+          "nombre": "Unidad 1 — Oscilaciones y Ondas",
+          "descripcion": "Movimiento armónico simple (MAS), péndulo, ondas mecánicas, sonido, efecto Doppler y propiedades de las ondas.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Ondas",   "tipo": "pdf",   "url": "archivos/f2-u1-guia.pdf"       },
+            { "titulo": "Ejercicios de Ondas",     "tipo": "pdf",   "url": "archivos/f2-u1-ejercicios.pdf" },
+            { "titulo": "Video: MAS explicado",    "tipo": "video", "url": "https://www.youtube.com/watch?v=aj_GkvBSaLA" }
+          ]
+        },
+        {
+          "nombre": "Unidad 2 — Termodinámica",
+          "descripcion": "Temperatura, calor, dilatación térmica, calorimetría, leyes de la termodinámica y ciclos termodinámicos.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Termodinámica",  "tipo": "pdf", "url": "archivos/f2-u2-guia.pdf"  },
+            { "titulo": "Tablas y Constantes",            "tipo": "pdf", "url": "archivos/f2-u2-tablas.pdf"},
+            { "titulo": "Problemas Termodinámica",        "tipo": "pdf", "url": "archivos/f2-u2-prob.pdf"  }
+          ]
+        },
+        {
+          "nombre": "Unidad 3 — Electromagnetismo",
+          "descripcion": "Carga eléctrica, ley de Coulomb, campo eléctrico, potencial, circuitos de corriente continua, magnetismo e inducción.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Electromagnetismo", "tipo": "pdf", "url": "archivos/f2-u3-guia.pdf"       },
+            { "titulo": "Formulario de Electromagnetismo",   "tipo": "pdf", "url": "archivos/f2-u3-formulario.pdf"},
+            { "titulo": "Práctica de Circuitos",             "tipo": "pdf", "url": "archivos/f2-u3-circuitos.pdf" }
+          ]
+        }
+      ]
+    },
+
+    "fisica3": {
+      "titulo": "Física III",
+      "descripcion": "Contenidos y materiales del curso de Física III",
+      "unidades": [
+        {
+          "nombre": "Unidad 1 — Electrostática",
+          "descripcion": "Carga eléctrica, ley de Coulomb, campo eléctrico, flujo eléctrico, ley de Gauss y potencial eléctrico.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Electrostática",  "tipo": "pdf", "url": "archivos/f3-u1-guia.pdf"       },
+            { "titulo": "Ejercicios Electrostática",       "tipo": "pdf", "url": "archivos/f3-u1-ejercicios.pdf" },
+            { "titulo": "Formulario de Electrostática",    "tipo": "pdf", "url": "archivos/f3-u1-formulario.pdf" }
+          ]
+        },
+        {
+          "nombre": "Unidad 2 — Corriente Eléctrica y Circuitos",
+          "descripcion": "Corriente eléctrica, resistencia, ley de Ohm, circuitos de CC, leyes de Kirchhoff y capacitores.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Circuitos",    "tipo": "pdf", "url": "archivos/f3-u2-guia.pdf"      },
+            { "titulo": "Problemas de Circuitos",       "tipo": "pdf", "url": "archivos/f3-u2-problemas.pdf" },
+            { "titulo": "Formulario de Circuitos",      "tipo": "pdf", "url": "archivos/f3-u2-formulario.pdf"}
+          ]
+        },
+        {
+          "nombre": "Unidad 3 — Magnetismo e Inducción",
+          "descripcion": "Campo magnético, fuerza magnética, ley de Faraday, ley de Ampère e inducción electromagnética.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Magnetismo",    "tipo": "pdf", "url": "archivos/f3-u3-guia.pdf"       },
+            { "titulo": "Ejercicios de Magnetismo",      "tipo": "pdf", "url": "archivos/f3-u3-ejercicios.pdf" },
+            { "titulo": "Formulario de Magnetismo",      "tipo": "pdf", "url": "archivos/f3-u3-formulario.pdf" }
+          ]
+        }
+      ]
+    },
+
+    "fisica4": {
+      "titulo": "Física IV",
+      "descripcion": "Contenidos y materiales del curso de Física IV",
+      "unidades": [
+        {
+          "nombre": "Unidad 1 — Óptica",
+          "descripcion": "Naturaleza de la luz, reflexión, refracción, lentes, espejos, difracción e interferencia.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Óptica",    "tipo": "pdf",   "url": "archivos/f4-u1-guia.pdf"       },
+            { "titulo": "Ejercicios de Óptica",      "tipo": "pdf",   "url": "archivos/f4-u1-ejercicios.pdf" },
+            { "titulo": "Video: Reflexión y Refracción", "tipo": "video", "url": "https://www.youtube.com/watch?v=v1nZ6BcHdY0" }
+          ]
+        },
+        {
+          "nombre": "Unidad 2 — Relatividad Especial",
+          "descripcion": "Postulados de Einstein, dilatación del tiempo, contracción de la longitud y equivalencia masa-energía.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Relatividad",  "tipo": "pdf", "url": "archivos/f4-u2-guia.pdf"      },
+            { "titulo": "Problemas de Relatividad",     "tipo": "pdf", "url": "archivos/f4-u2-problemas.pdf" },
+            { "titulo": "Formulario de Relatividad",    "tipo": "pdf", "url": "archivos/f4-u2-formulario.pdf"}
+          ]
+        },
+        {
+          "nombre": "Unidad 3 — Física Cuántica",
+          "descripcion": "Efecto fotoeléctrico, dualidad onda-partícula, principio de incertidumbre de Heisenberg y modelos atómicos.",
+          "materiales": [
+            { "titulo": "Guía Teórica — Física Cuántica", "tipo": "pdf", "url": "archivos/f4-u3-guia.pdf"       },
+            { "titulo": "Ejercicios de Física Cuántica",   "tipo": "pdf", "url": "archivos/f4-u3-ejercicios.pdf" },
+            { "titulo": "Formulario Física Cuántica",       "tipo": "pdf", "url": "archivos/f4-u3-formulario.pdf" }
+          ]
+        }
+      ]
+    },
+
+    "horarios": {
+      "titulo": "Horarios",
+      "descripcion": "Horarios de clases y asesorías académicas",
+      "semestre": "Semestre 2025-2",
+      "clases": [
+        { "dia": "Lunes",     "hora": "07:00 – 08:30", "materia": "Física I",       "grupo": "1FM1",  "salon": "A-201"      },
+        { "dia": "Lunes",     "hora": "08:30 – 10:00", "materia": "Física I",       "grupo": "1FM2",  "salon": "A-202"      },
+        { "dia": "Martes",    "hora": "07:00 – 08:30", "materia": "Física II",      "grupo": "2FM1",  "salon": "B-105"      },
+        { "dia": "Martes",    "hora": "10:00 – 12:00", "materia": "Laboratorio",    "grupo": "LAB-1", "salon": "Lab Física" },
+        { "dia": "Miércoles", "hora": "07:00 – 08:30", "materia": "Física I",       "grupo": "1FM1",  "salon": "A-201"      },
+        { "dia": "Miércoles", "hora": "08:30 – 10:00", "materia": "Física I",       "grupo": "1FM2",  "salon": "A-202"      },
+        { "dia": "Jueves",    "hora": "07:00 – 08:30", "materia": "Física II",      "grupo": "2FM1",  "salon": "B-105"      },
+        { "dia": "Viernes",   "hora": "07:00 – 09:00", "materia": "Laboratorio",    "grupo": "LAB-1", "salon": "Lab Física" },
+        { "dia": "Viernes",   "hora": "09:00 – 11:00", "materia": "Laboratorio",    "grupo": "LAB-2", "salon": "Lab Física" }
+      ],
+      "asesorias": [
+        { "dia": "Lunes",     "hora": "13:00 – 14:00", "lugar": "Sala de Maestros · Edificio B" },
+        { "dia": "Miércoles", "hora": "13:00 – 14:00", "lugar": "Sala de Maestros · Edificio B" },
+        { "dia": "Jueves",    "hora": "14:00 – 15:00", "lugar": "Biblioteca Central"             }
+      ],
+      "nota": "Las asesorías son sin cita previa. Si necesitas asesoría fuera de este horario, envía un correo para agendar una sesión."
+    }
+  },
+
+  "widgets": {
+    "avisos": {
+      "titulo": "📢 Avisos Importantes",
+      "items": [
+        {
+          "texto": "Entrega de reportes de laboratorio: viernes antes de las 23:59 h vía plataforma.",
+          "fecha": "2025-01-15",
+          "urgente": true
+        },
+        {
+          "texto": "Nuevo material de Física II disponible. Revisa la sección correspondiente.",
+          "fecha": "2025-01-12",
+          "urgente": false
+        }
+      ]
+    },
+    "noticias": {
+      "titulo": "📰 Noticias Recientes",
+      "items": [
+        {
+          "titulo": "Apertura del semestre 2025-2",
+          "texto": "Bienvenidos. Todos los materiales han sido actualizados para este semestre.",
+          "fecha": "2025-01-13"
+        },
+        {
+          "titulo": "Olimpiada Interna de Física",
+          "texto": "Convocatoria abierta. ¡Regístrate antes del 31 de enero con el profesor!",
+          "fecha": "2025-01-10"
+        }
+      ]
+    },
+    "eventos": {
+      "titulo": "📅 Próximos Eventos",
+      "items": [
+        { "nombre": "Primer Parcial Física I",  "fecha": "2025-03-10", "tipo": "examen"   },
+        { "nombre": "Entrega Práctica 2",        "fecha": "2025-01-31", "tipo": "entrega"  },
+        { "nombre": "Asesoría de Ondas",         "fecha": "2025-01-27", "tipo": "asesoria" }
+      ]
+    },
+    "contacto_rapido": {
+      "titulo": "📬 Contacto Rápido",
+      "email":   "fisica@cecyt1.ipn.mx",
+      "horario": "L–V: 13:00 – 15:00 h"
+    }
+  }
+}
