@@ -5,27 +5,27 @@
     "descripcion": "Espacio de apoyo académico para estudiantes de Física I y Física II"
   },
   "menu": [
-    { "id": "inicio",  "label": "🏠 Inicio"     },
-    { "id": "fisica1", "label": "⚡ Física I"   },
-    { "id": "fisica2", "label": "🌊 Física II"  },
-    { "id": "fisica3", "label": "🔭 Física III" },
-    { "id": "fisica4", "label": "⚛️ Física IV"  },
-    { "id": "horarios","label": "⏰ Horarios"   }
+    { "id": "inicio",  "label": "Inicio"     },
+    { "id": "fisica1", "label": "Física I"   },
+    { "id": "fisica2", "label": "Física II"  },
+    { "id": "fisica3", "label": "Física III" },
+    { "id": "fisica4", "label": "Física IV"  },
+    { "id": "horarios","label": "Horarios"   }
   ],
   "paginas": {
     "inicio": {
       "titulo": "Bienvenida",
       "aviso": {
-        "titulo": "⚠️ Aviso Importante",
+        "titulo": "Aviso Importante",
         "texto": "Las asesorías presenciales se reanudan el 20 de enero. Consulta el horario actualizado en la sección de Horarios."
       },
       "bienvenida": "Bienvenido a la Academia de Física del CECYT 1. Este espacio está diseñado para apoyar tu aprendizaje con materiales, guías de estudio y recursos descargables para Física I, II, III y IV. Navega por el menú lateral para acceder a los contenidos de cada unidad.",
       "accesos_rapidos": [
-        { "label": "⚡ Ir a Física I",      "seccion": "fisica1"  },
-        { "label": "🌊 Ir a Física II",     "seccion": "fisica2"  },
-        { "label": "🔭 Ir a Física III",    "seccion": "fisica3"  },
-        { "label": "⚛️ Ir a Física IV",    "seccion": "fisica4"  },
-        { "label": "⏰ Consultar Horarios", "seccion": "horarios" }
+        { "label": "Ir a Física I",      "seccion": "fisica1"  },
+        { "label": "Ir a Física II",     "seccion": "fisica2"  },
+        { "label": "Ir a Física III",    "seccion": "fisica3"  },
+        { "label": "Ir a Física IV",    "seccion": "fisica4"  },
+        { "label": "Consultar Horarios", "seccion": "horarios" }
       ]
     },
 
@@ -191,7 +191,7 @@
 
   "widgets": {
     "avisos": {
-      "titulo": "📢 Avisos Importantes",
+      "titulo": "Avisos Importantes",
       "items": [
         {
           "texto": "Entrega de reportes de laboratorio: viernes antes de las 23:59 h vía plataforma.",
@@ -206,7 +206,7 @@
       ]
     },
     "noticias": {
-      "titulo": "📰 Noticias Recientes",
+      "titulo": "Noticias Recientes",
       "items": [
         {
           "titulo": "Apertura del semestre 2025-2",
@@ -221,7 +221,7 @@
       ]
     },
     "eventos": {
-      "titulo": "📅 Próximos Eventos",
+      "titulo": "Próximos Eventos",
       "items": [
         { "nombre": "Primer Parcial Física I",  "fecha": "2025-03-10", "tipo": "examen"   },
         { "nombre": "Entrega Práctica 2",        "fecha": "2025-01-31", "tipo": "entrega"  },

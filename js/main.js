@@ -192,7 +192,7 @@ function paginaFisica(d, num) {
         <div class="unidad-body" id="${bodyId}">
           <p class="unidad-desc">${esc(u.descripcion || '')}</p>
           ${u.materiales && u.materiales.length
-            ? `<div class="mat-label">📁 Materiales</div>
+            ? `<div class="mat-label">Materiales</div>
                <div class="mat-list">${u.materiales.map(m => htmlMaterial(m)).join('')}</div>`
             : '<p style="font-size:.84rem;color:var(--c-muted)">Sin materiales disponibles aún.</p>'
           }
@@ -236,7 +236,7 @@ function paginaHorarios(d) {
       <p class="desc">${esc(d.descripcion || '')} · ${esc(d.semestre || '')}</p>
     </div>
 
-    <div class="section-title">📚 Clases</div>
+    <div class="section-title">Clases</div>
     <div class="table-wrap">
       <table>
         <thead>
@@ -246,7 +246,7 @@ function paginaHorarios(d) {
       </table>
     </div>
 
-    <div class="section-title">💬 Asesorías</div>
+    <div class="section-title">Asesorías</div>
     <div class="table-wrap">
       <table>
         <thead>
@@ -256,7 +256,7 @@ function paginaHorarios(d) {
       </table>
     </div>
 
-    ${d.nota ? `<div class="nota-box"><strong>📌 Nota:</strong> ${esc(d.nota)}</div>` : ''}`;
+    ${d.nota ? `<div class="nota-box"><strong>Nota:</strong> ${esc(d.nota)}</div>` : ''}`;
 }
 
 /* ================================================================
@@ -302,8 +302,8 @@ function renderizarWidgets() {
   if (w.contacto_rapido) {
     const c = w.contacto_rapido;
     const body = `<div class="w-cq-body">
-      <div class="w-cq-row">✉️ <a href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>
-      <div class="w-cq-row">🕐 ${esc(c.horario)}</div>
+      <div class="w-cq-row"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>
+      <div class="w-cq-row">${esc(c.horario)}</div>
     </div>`;
     html += `<div class="widget">
       <div class="widget-hd">${c.titulo}</div>
@@ -411,8 +411,8 @@ function fmtFecha(str) {
 
 /* HTML para un enlace de material descargable */
 function htmlMaterial(m) {
-  const iconos = { pdf: '📄', video: '▶️', docx: '📝', xlsx: '📊', pptx: '📊', zip: '🗜️' };
-  const icono  = iconos[m.tipo] || '📎';
+  const iconos = { pdf: '', video: '', docx: '', xlsx: '', pptx: '', zip: '' };
+  const icono  = iconos[m.tipo] ?? '';
   const externo = m.url && (m.url.startsWith('http://') || m.url.startsWith('https://'));
   const target  = externo ? ' target="_blank" rel="noopener noreferrer"' : '';
 
