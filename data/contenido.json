@@ -2,7 +2,7 @@
   "sitio": {
     "titulo": "Academia de Física",
     "subtitulo": "CECYT 1 · Turno Matutino",
-    "descripcion": "Espacio de apoyo académico para estudiantes de Física I y Física II"
+    "descripcion": "Espacio de apoyo académico para estudiantes"
   },
   "menu": [
     { "id": "inicio",  "label": "Inicio"     },
@@ -15,11 +15,7 @@
   "paginas": {
     "inicio": {
       "titulo": "Bienvenida",
-      "aviso": {
-        "titulo": "Aviso Importante",
-        "texto": "Las asesorías presenciales se reanudan el 20 de enero. Consulta el horario actualizado en la sección de Horarios."
-      },
-      "bienvenida": "Bienvenido a la Academia de Física del CECYT 1. Este espacio está diseñado para apoyar tu aprendizaje con materiales, guías de estudio y recursos descargables para Física I, II, III y IV. Navega por el menú lateral para acceder a los contenidos de cada unidad.",
+      "bienvenida": "Bienvenido a la Academia de Física del CECYT 1 del turno matutino. Este espacio está diseñado brindar materiales, guías de estudio y recursos descargables para Física I, II, III y IV. Navega por el menú lateral para acceder a los contenidos de cada unidad.",
       "accesos_rapidos": [
         { "label": "Física I",      "seccion": "fisica1"  },
         { "label": "Física II",     "seccion": "fisica2"  },
@@ -28,7 +24,6 @@
         { "label": "Consultar Horarios", "seccion": "horarios" }
       ]
     },
-
     "fisica1": {
       "titulo": "Física I",
       "descripcion": "Contenidos y materiales del curso de Física I",
